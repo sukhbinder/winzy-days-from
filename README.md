@@ -23,6 +23,20 @@ winzy install winzy-days-from
 
 To get help type ``winzy  daysfrom --help``
 
+```bash
+usage: winzy daysfrom [-h] [--date DATE] days
+
+Calculate a future date based on a given date and number of days.
+
+positional arguments:
+  days         Number of days to add to the date.
+
+optional arguments:
+  -h, --help   show this help message and exit
+  --date DATE  Start date in yyyy-mm-dd format (default: today).
+
+```
+
 ## Development
 
 To set up this plugin locally, first checkout the code. Then create a new virtual environment:
